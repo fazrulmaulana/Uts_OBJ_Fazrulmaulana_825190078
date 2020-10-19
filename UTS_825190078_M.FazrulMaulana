@@ -1,0 +1,28 @@
+import java.util.Scanner;
+public class UTS_OBJ_825190078_Fazrul_Maulana {
+    public static void main(String[] args) {
+      String Nama;
+      String Motor;
+      String Warna;
+      String CC;
+
+      Scanner input_bio=new Scanner (System.in);
+      System.out.print("Nama Motor Anda: ");
+      Nama=input_bio.nextLine();
+      
+      System.out.print("Merk Motor Anda: ");
+      Motor=input_bio.nextLine();
+      
+      System.out.print("Warna Motor Anda: ");
+      Warna=input_bio.nextLine();
+      
+      System.out.print("CC Anda : ");
+      CC=input_bio.nextLine();
+
+      System.out.println(" ");
+      System.out.println("Nama Motor Anda adalah: "+Nama);
+      System.out.println("Merk Motor Anda adalah: "+Motor);
+      System.out.println("Warna Motor Anda adalah: "+Warna); 
+      System.out.println("CC Motor Anda adalah: "+CC); 
+    }
+}
